@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-liver-feedsto
 
 Home: https://book-data-science-r.netlify.app
 
-Package license: GPL-2.0-only
+Package license: GPL-2.0-or-later
 
 Summary: Provides a collection of helper functions and illustrative datasets to support learning and teaching of data science with R. The package is designed as a companion to the book <https://book-data-science-r.netlify.app>, making key data science techniques accessible to individuals with minimal coding experience. Functions include tools for data partitioning, performance evaluation, and data transformations (e.g., z-score and min-max scaling). The included datasets are curated to highlight practical applications in data exploration, modeling, and multivariate analysis. An early inspiration for the package came from an ancient Persian idiom about "eating the liver", symbolizing deep and immersive engagement with knowledge.
 
