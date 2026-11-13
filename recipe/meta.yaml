@@ -1,15 +1,15 @@
-{% set version = "1.30" %}
+{% set version = "1.31" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-liver
-  version: "{{ version|replace('-', '_') }}"
+  version: {{ version|replace('-', '_') }}
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/liver_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/liver/liver_{{ version }}.tar.gz
-  sha256: f6b705bce6ca44e54e39dddbb36e4bb48608855a96c6629700cbae56c1b32daa
+  sha256: 310d2af506d0e786c7a88250ea19691136827b1cc5ab0d01099a767355a187a6
 
 build:
   number: 0
